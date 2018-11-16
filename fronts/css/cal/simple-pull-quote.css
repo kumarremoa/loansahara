@@ -1,0 +1,36 @@
+.simplePullQuote {
+    width: 100%;
+    float: none;
+    text-align: justify;
+    border-top: 4px #21aa47 solid;
+    border-bottom: 4px #21aa47 solid;
+    padding: 5px;
+    margin: 10px 0 30px 0;
+}
+.simplePullQuote.left {
+	float:left;
+	margin:10px 10px 30px 0;
+}
+.simplePullQuote ul li {
+    padding-left: 0 !important;
+}
+.simplePullQuote ul li::after {
+    left: -34px !important;
+}
+.simplePullQuote ol li {
+    padding-left: 0 !important;
+}
+.simplePullQuote ol li::after {
+    left: -34px !important;
+}
+@media (min-width: 480px) {
+	.simplePullQuote {
+    		width: 40%;
+    		float: right;
+    		text-align: justify;
+    		border-top: 4px #21aa47 solid;
+    		border-bottom: 4px #21aa47 solid;
+ 		padding: 5px;
+		margin: 10px 0 30px 10px;
+	}
+}
